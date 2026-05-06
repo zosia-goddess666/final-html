@@ -4,28 +4,15 @@
   margin: 0;
   padding: 0;
 }
-/* body{
-    background-image: url(../imgs/bg1.png);
-} */
 
 header{
-    background-color: #1C6E6A;
+    background-color: #2D605D;
 }
 
 .sct1{
     box-sizing: border-box;
-    height: auto;
-    background: linear-gradient(#103A38, #636687);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 50px;
-}
-.sct2{
-    box-sizing: border-box;
-    height: auto;
-    background: linear-gradient(#636687, #103A38);
+    height: 700px;
+    background: linear-gradient(#171c26, #0e4c43);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,28 +21,25 @@ header{
 }
 .sct3{
     box-sizing: border-box;
-    height: auto;
-    background: linear-gradient(#103A38, #636687);
+    height: 814.6px;
+    background: linear-gradient(#171c26, #0e4c43);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
 }
+.sct2,
 .sct4{
     box-sizing: border-box;
-    height: auto;
-    background: linear-gradient(#636687, #103A38);
+    height: 814.6px;
+    background: linear-gradient(#0e4c43, #171c26);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
 }
-
-/* .sct{
-    margin-bottom: 500px;
-} */
 
 .nav-box{
     font-size: 25px;
@@ -73,6 +57,8 @@ header{
     padding: 10px 36px;
     border-radius: 13px;
     transition: background-color 0.1s linear;
+    cursor: pointer;
+    
 }
 .btn:hover{
     background-color: #469A69;
@@ -89,20 +75,27 @@ header{
 .title{
     font-size: 80px;
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    /* margin-top: 40px; */
+    margin-bottom: 50px;
 }
 .card-box{
     justify-content: center;
     gap: 40px;
     display: flex;
+    margin-bottom: 20px;
+    /* overflow-x: auto; */
 }
+/* .card-box::-webkit-scrollbar{
+    display: none;
+} */
 
 .card {
-  width: 300px;
+  width: 100%;
   background: linear-gradient(#6B8F8E, #1E5754);
   border-radius: 13px;
   box-sizing: border-box;
+  
+  /* overflow: hidden; */
 }
 
 .card-image-wrap {
@@ -115,8 +108,8 @@ header{
 .card-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  display: block;
+  /* object-fit: cover;
+  display: block; */
 }
 .card-content {
   border-bottom-left-radius: 13px;
@@ -135,7 +128,29 @@ header{
   padding-right: 15px;
   padding-bottom: 10px;
 }
+.card-link{
+    text-decoration: none;
+    flex: 0 0 320px;
+    display: block;
+}
+.read-more-box{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
 
 .read-more{
-    justify-content: space-between;
+    text-decoration: none;
+    font-size: 20px;
+}
+.read-more img{
+    padding-left: 10px;
+}
+.terms-box{
+    width: 60%;
+    overflow: scroll;
+    height: auto;
+}
+.terms-item{
+    margin: 30px;
 }

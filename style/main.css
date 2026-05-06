@@ -4,13 +4,58 @@
   margin: 0;
   padding: 0;
 }
-body{
+/* body{
     background-image: url(../imgs/bg1.png);
-}
+} */
 
 header{
     background-color: #1C6E6A;
 }
+
+.sct1{
+    box-sizing: border-box;
+    height: auto;
+    background: linear-gradient(#103A38, #636687);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.sct2{
+    box-sizing: border-box;
+    height: auto;
+    background: linear-gradient(#636687, #103A38);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.sct3{
+    box-sizing: border-box;
+    height: auto;
+    background: linear-gradient(#103A38, #636687);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.sct4{
+    box-sizing: border-box;
+    height: auto;
+    background: linear-gradient(#636687, #103A38);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+/* .sct{
+    margin-bottom: 500px;
+} */
 
 .nav-box{
     font-size: 25px;
@@ -38,12 +83,59 @@ header{
     align-items: center;
 }
 .about-text{
-    font-size: 27px;
+    font-size: 30px;
     margin: 90px 250px 20px 250px;
 }
 .title{
+    font-size: 80px;
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
-.sec{
-    margin-bottom: 50px;
+.card-box{
+    justify-content: center;
+    gap: 40px;
+    display: flex;
+}
+
+.card {
+  width: 300px;
+  background: linear-gradient(#6B8F8E, #1E5754);
+  border-radius: 13px;
+  box-sizing: border-box;
+}
+
+.card-image-wrap {
+  width: 100%;
+  overflow: hidden;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.card-content {
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  text-align: right;
+}
+
+.card-text {
+  font-size: 18px;
+  padding: 15px;
+}
+.card-date {
+  font-size: 15px;
+  text-align: right;
+  margin-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+.read-more{
+    justify-content: space-between;
 }

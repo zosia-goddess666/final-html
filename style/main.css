@@ -186,3 +186,28 @@
     display: flex;
     gap: 20px;
 }
+.cont-box{
+    background-image: url(../imgs/contacts.png);
+    width: 1315px;
+    height: 534px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cont-text{
+    width: 59%;
+    height: 65%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cont-title{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.cont-info{
+    font-size: 30px;
+}

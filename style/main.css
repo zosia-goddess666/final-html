@@ -376,7 +376,6 @@
     box-sizing: border-box;
     position: relative;
     margin: 20px 0;
-    gap: 10px;
 }
 
 .swiper-slide {
@@ -444,7 +443,11 @@
     }
 
     .about-text {
-        font-size: 15px;
+        font-size: 20px;
+        margin: 5px 20px 50px 20px;
+    }
+    .nav-box{
+        gap: 300px;
     }
 
     .nav-item {
@@ -460,10 +463,23 @@
         width: 50px;
         height: auto;
     }
-
+    .cont-box{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .cont-title,
+    .cont-info{
+        font-size: 20px;
+        text-align: right;
+    }
 }
 
 @media(min-width: 1400px) and (max-width: 1024px) {
+    .about-text {
+        font-size: 10px;
+        margin: 5px 20px 50px 20px;
+    }
+
     .burger {
         display: none;
     }
@@ -472,6 +488,9 @@
 @media(min-width: 1024px) and (max-width: 1400px) {
     .burger {
         display: none;
+    }
+    .about-text {
+        margin: 5px 20px 50px 20px;
     }
 
 }

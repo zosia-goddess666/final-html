@@ -77,10 +77,12 @@
     transition: background-color 0.1s linear;
     cursor: pointer;
 }
-.head-btn{
+
+.head-btn {
     border: none;
     font-size: 25px;
 }
+
 .btn:hover,
 .head-btn:hover {
     background-color: #469A69;
@@ -253,7 +255,7 @@
     font-size: 30px;
 }
 
-.popup-box{
+.popup-box {
     width: 1048px;
     height: 650px;
     border-radius: 13px;
@@ -268,7 +270,8 @@
     text-align: center;
     box-sizing: border-box;
 }
-.art-popup-box{
+
+.art-popup-box {
     position: relative;
     background-image: radial-gradient(#5B5FA9, #16171F);
 
@@ -319,9 +322,11 @@
 }
 
 
-#popUp.hide {
+#popUp.hide,
+#artPopUp.hide {
     display: none;
 }
+
 
 .btnClose,
 .artbtnClose {
@@ -332,7 +337,7 @@
     cursor: pointer;
 }
 
-/* #artPopUp{
+#artPopUp {
     width: 100%;
     height: 100vh;
     padding: 20px;
@@ -344,21 +349,89 @@
     justify-content: center;
     box-sizing: border-box;
     display: flex;
-} */
+}
 
- .art-text-box{
+.art-text-box {
     text-align: justify;
     padding: 20px;
- }
-.art-text{
+}
+
+.art-text {
     margin-bottom: 80px;
     font-size: 30px;
 }
 
-.art-img{
+.art-img {
     border-radius: 13px;
     margin-bottom: 20px;
 }
+
+
+
+/* SWIPER */
+
+.swiper {
+    width: 100%;
+    padding: 0 50px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.card {
+    height: 100%;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-image-wrap {
+    overflow: hidden;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+.append-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+}
+
+
+
+
+/* АДАПТАЦІЯ */
 
 @media(max-width: 768px) {
     .title {
